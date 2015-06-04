@@ -28,6 +28,8 @@ gem 'jbuilder', '2.2.3'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0', group: :doc
 
+#Blowfish File Encryption
+gem 'bcrypt',               '3.1.7'
 
 group :development, :test do
 
