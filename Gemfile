@@ -31,6 +31,15 @@ gem 'sdoc', '0.4.0', group: :doc
 #Blowfish File Encryption
 gem 'bcrypt',               '3.1.7'
 
+#Faker is a port of Perl's Data::Faker library that generates fake data
+gem 'faker',                '1.4.2'
+
+#will_paginate is a pagination library 
+gem 'will_paginate',           '3.0.7'
+
+#Integrates the Twitter Bootstrap pagination component with the will_paginate pagination gem.
+gem 'bootstrap-will_paginate', '0.0.10'
+
 group :development, :test do
 
   # Use sqlite3 as the database for Active Record

@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
 	    end
 		# Equivalent to: params[:session][:remember_me] == '1' ? remember(user) : forget(user)
 
-        redirect_to user
+		redirect_back_or user
       else
         # Create an error message.
         flash.now[:danger] = 'Invalid email/password combination' # Using flash.now I prevent the flash message to appear also on other page
