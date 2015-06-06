@@ -40,6 +40,15 @@ gem 'will_paginate',           '3.0.7'
 #Integrates the Twitter Bootstrap pagination component with the will_paginate pagination gem.
 gem 'bootstrap-will_paginate', '0.0.10'
 
+#Provides a simple and extremely flexible way to upload files from Ruby applications
+gem 'carrierwave',             '0.10.0'
+
+#A ruby wrapper for ImageMagick or GraphicsMagick command line
+gem 'mini_magick',             '3.8.0'
+
+#Fog is the Ruby cloud services library
+gem 'fog',                     '1.23.0'
+
 group :development, :test do
 
   # Use sqlite3 as the database for Active Record
