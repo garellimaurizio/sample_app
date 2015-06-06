@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
 
 
+  get 'password_resets/new'
+
+  get 'password_resets/edit'
+
    root "static_pages#home"
 #  root_path -> '/'
 #  root_url  -> 'http://www.example.com/'
@@ -28,6 +32,7 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
   
   resources :account_activations, only: [:edit]
+  resources :password_resets,     only: [:new, :create, :edit, :update]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
