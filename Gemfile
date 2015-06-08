@@ -49,6 +49,9 @@ gem 'mini_magick',             '3.8.0'
 #Fog is the Ruby cloud services library
 gem 'fog',                     '1.23.0'
 
+#A Go package for AWS Signature version 4
+gem 'aws4'
+
 group :development, :test do
 
   # Use sqlite3 as the database for Active Record
