@@ -48,7 +48,7 @@ gem 'mini_magick',             '3.8.0'
 
 #Fog is the Ruby cloud services library
 #gem 'fog',                     '1.23.0'
-gem 'fog',                     '1.31.0'
+gem 'fog'
 
 #A Go package for AWS Signature version 4
 gem 'aws4'
